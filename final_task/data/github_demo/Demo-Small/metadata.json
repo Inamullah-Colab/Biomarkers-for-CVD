@@ -1,0 +1,39 @@
+{
+  "scenario": "Demo-Small",
+  "n": 300,
+  "p": 24,
+  "rho": 0.2,
+  "k": 3,
+  "ell": 3,
+  "seed": 20260223,
+  "rmiss": 0.1,
+  "missing_mechanism": "mixed",
+  "blocks": {
+    "G": 1,
+    "Z_fixed": 6,
+    "Z_noise": 0,
+    "L_treat": 2,
+    "L_med": 3,
+    "R": 12
+  },
+  "num_outcomes": 7,
+  "columns_preview": [
+    "G1",
+    "Zfix_age",
+    "Zfix_sex",
+    "Zfix_bmi",
+    "Zfix_batch",
+    "Zfix_PC1",
+    "Zfix_PC2",
+    "Lt1",
+    "Lt2",
+    "Lm1"
+  ],
+  "missing_meta": {
+    "mechanism": "mixed",
+    "target_rmiss": 0.1,
+    "realized_rmiss": 0.13958333333333334,
+    "num_target_columns": 24
+  },
+  "effects_estimated": false
+}
