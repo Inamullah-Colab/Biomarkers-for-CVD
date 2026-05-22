@@ -1,9 +1,9 @@
 # Biomarkers-for-CVD
 
-Reviewer-ready causal modeling package for biomarker pathway analysis using prior-aware OUR_SEM.
+Reviewer-ready causal modelling package for biomarker pathway analysis using prior-aware RetiSEM.
 
 ## What Is Included
-- Prior-aware standalone OUR_SEM runner
+- Prior-aware standalone RetiSEM runner
 - External prior-knowledge builder from completed scenario outputs
 - Cross-check bundle utility (scenario selection + anti-leak summary + domain pattern links)
 - Mediation workflow for TE/NDE/NIE pathway analysis
